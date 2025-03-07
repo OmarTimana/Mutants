@@ -17,6 +17,6 @@ ATGCGA, CAGTGC, TTATTT, AGACGG, GCGTCA, TCACTG
 #### False
 
 ## Despliegue proyecto
-- git clone https://github.com/OmarTimana/Mutants
+- git clone https://github.com/OmarTimana/Mutants.git
 - npm install
 - ng serve

@@ -8,7 +8,7 @@
   <section class="flex flex-col items-center">
     <form [formGroup]="form" (ngSubmit)="onSubmit()"> 
       <div class="flex flex-col gap-2 items-center">
-        <input id="adn" formControlName="adn" type="text" class="bg-slate-200 p-2 rounded-sm w-lg text-center" placeholder="Ingrese secuencia ADN" />
+        <input id="adn" formControlName="adn" type="text" class="bg-slate-200 p-2 rounded-sm w-lg text-center" placeholder="Ingrese la secuencia de ADN (EJ: ATGCGA, CAGTGC ...)" />
 
         @if(form.get("adn")?.invalid && form.get("adn")?.touched){
           <span class="text-red-500 text-sm">Debe ingresar una secuencia de ADN</span>
